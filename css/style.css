@@ -1,8 +1,8 @@
-/* body {
-    background-image: url("../img/nature.jpg");
-    background-repeat: no-repeat;
-    opacity: 0.5;
-} */
+body {
+    /* background-image: url("../img/technology.jpeg");
+    background-repeat: no-repeat; */
+    /* opacity: 0.8; */
+}
 
 .portfolio-name {
     font-size: 60px;
@@ -15,4 +15,13 @@
 
 .ttl-portfolio {
     padding-bottom: 50px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.logo-info {
+    display: inline-block;
 }
