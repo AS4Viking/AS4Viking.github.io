@@ -7,3 +7,12 @@
 .portfolio-name {
     font-size: 60px;
 }
+
+.logos div img {
+    width: auto;
+    height: 30px;
+}
+
+.ttl-portfolio {
+    padding-bottom: 50px;
+}
