@@ -16,12 +16,11 @@ body {
 .ttl-portfolio {
     padding-bottom: 50px;
 }
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+
+.container-part {
+    padding-bottom: 30px;
 }
-.logo-info {
-    display: inline-block;
+
+.title {
+    padding-bottom: 10px;
 }
