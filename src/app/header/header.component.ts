@@ -14,8 +14,8 @@ import { MzCollapsibleModule } from 'ngx-materialize'
 })
 export class HeaderComponent implements OnInit {
   public isCollapsed = true;
-  constructor() {
-  }
+  constructor() {}
+  
   ngOnInit() {
   }
 

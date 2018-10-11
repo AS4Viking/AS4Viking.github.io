@@ -5,12 +5,16 @@ import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MzCollapsibleModule } from 'ngx-materialize';
 import { MzMediaModule } from 'ngx-materialize';
+import { AccomplishmentsComponent } from './accomplishments/accomplishments.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    AccomplishmentsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
