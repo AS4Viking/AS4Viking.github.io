@@ -9,6 +9,7 @@ import { MzMediaModule } from 'ngx-materialize';
 import { AccomplishmentsComponent } from './accomplishments/accomplishments.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BodyComponent } from './body/body.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     HeaderComponent,
     AccomplishmentsComponent,
-    FooterComponent
+    FooterComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,

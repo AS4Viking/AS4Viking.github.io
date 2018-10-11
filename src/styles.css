@@ -1,3 +1,7 @@
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
 /** Collapse **/
 .collapsible-header {
     display: block !important;
@@ -20,6 +24,7 @@
 /** Header component **/
 .portfolio-name {
     font-size: 60px;
+    font-family: 'Charmonman', cursive;
 }
 
 .ttl-portfolio {
@@ -34,6 +39,7 @@
     padding-bottom: 10px;
     font-size: 25px;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 .sub-title {
     padding-bottom: 10px;
@@ -84,4 +90,8 @@
 
 .container {
     width: 100% !important;
+}
+
+.icon {
+    color: #ffffff;
 }
