@@ -2,6 +2,9 @@
 .collapsible-header {
     display: block !important;
     border: none !important;
+    background-color: darkcyan !important;
+    margin-bottom: 10px !important;
+    color: #ffffff;
 }
 
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
@@ -10,6 +13,7 @@
 }
 .collapsible-body {
     border: none !important;
+    padding: 0 !important;
 }
 /** End Collapse **/
 
@@ -31,7 +35,13 @@
     font-size: 25px;
     font-weight: 600;
 }
-
+.sub-title {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    /* margin-left: 10px !important; */
+}
 .company {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -39,6 +49,7 @@
 
 .container-div {
     padding-bottom: 10px;
+    padding-left: 35px;
 }
 .text-center {
     text-align: center;
@@ -70,3 +81,7 @@
     background: #555; 
 }
 /* End Scrollbar / Scroller */
+
+.container {
+    width: 100% !important;
+}

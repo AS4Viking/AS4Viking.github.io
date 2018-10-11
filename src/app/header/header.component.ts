@@ -1,5 +1,6 @@
 import { Component, OnInit, NgModule } from '@angular/core';
-import { MzCollapsibleModule } from 'ngx-materialize'
+import { MzCollapsibleModule } from 'ngx-materialize';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -13,9 +14,10 @@ import { MzCollapsibleModule } from 'ngx-materialize'
   ],
 })
 export class HeaderComponent implements OnInit {
+  faCoffee = faCoffee;
   public isCollapsed = true;
   constructor() {}
-  
+
   ngOnInit() {
   }
 
