@@ -45,8 +45,7 @@ body {
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 10px;
-    /* margin-left: 10px !important; */
+    margin-left: 10px;
 }
 .company {
     margin-top: 5px;
