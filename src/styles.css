@@ -49,9 +49,11 @@ body {
 }
 .company {
     margin-top: 5px;
+    margin-bottom: -10px;
+}
+.organization {
     margin-bottom: 5px;
 }
-
 .container-div {
     padding-bottom: 10px;
     padding-left: 35px;
