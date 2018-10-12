@@ -27,7 +27,7 @@ body {
 /** Header component **/
 .portfolio-name {
     font-size: 60px;
-    font-family: 'Charmonman', cursive;
+    /* font-family: 'Charmonman', cursive; */
 }
 
 .ttl-portfolio {
