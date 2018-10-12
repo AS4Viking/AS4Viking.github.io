@@ -3,6 +3,7 @@ body {
 }
 
 /** Collapse **/
+
 .collapsible-header {
     display: block !important;
     border: none !important;
@@ -10,7 +11,9 @@ body {
     margin-bottom: 10px !important;
     color: #ffffff;
 }
-
+.accomp-body .collapsible-header {
+    background-color: #7c7b7b !important;
+}
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
     box-shadow: none !important;
     border: none !important;
@@ -96,4 +99,12 @@ body {
 
 .icon {
     color: #ffffff;
+}
+
+/* ul:not(.browser-default) {
+    padding-left: 0;
+} */
+
+#accomp ul:not(.browser-default) {
+    padding-left: 30px;
 }
