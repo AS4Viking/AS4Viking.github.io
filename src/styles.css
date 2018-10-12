@@ -59,14 +59,14 @@ body {
 }
 .container-div {
     padding-bottom: 10px;
-    padding-left: 35px;
+    padding-left: 25px;
 }
 .text-center {
     text-align: center;
 }
 .title2 {
     padding-bottom: 5px;
-    padding-left: 35px;
+    padding-left: 25px;
 }
 .social-media img {
     width: auto;
@@ -123,4 +123,14 @@ body {
     width: 70px;
     margin-top: 20px;
     margin-left: 30px;
+    display: inline-block; /*Possible removal in the future*/
+}
+.display-inline {
+    display: inline-block;
+}
+.link {
+    /* height: 100%; */
+    width: 15px;
+    display: inline-block;
+    margin-left: 10px;
 }
