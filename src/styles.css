@@ -134,8 +134,6 @@ body {
     display: inline-block;
     margin-left: 10px;
 }
-
-
 .logo2 {
     height: 100%;
     width: 40px;
@@ -153,4 +151,8 @@ body {
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
+  }
+
+  .container {
+    max-width: 70% !important;
   }
