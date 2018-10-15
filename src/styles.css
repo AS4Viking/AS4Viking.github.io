@@ -142,6 +142,10 @@ body {
     /* margin-top: 20px; */
     display: inline-block; /*Possible removal in the future*/
 }
-
-/* padding-left: 12px;
-padding-top: 4px; */
+.padding-left {
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.margin-right {
+    margin-right: 10px;
+}
