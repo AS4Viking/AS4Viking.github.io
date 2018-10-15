@@ -8,7 +8,6 @@ import { MzCollapsibleModule } from 'ngx-materialize';
 import { MzMediaModule } from 'ngx-materialize';
 import { AccomplishmentsComponent } from './accomplishments/accomplishments.component';
 import { FooterComponent } from './footer/footer.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BodyComponent } from './body/body.component';
 
 
@@ -25,7 +24,6 @@ import { BodyComponent } from './body/body.component';
     NgbModule,
     MzCollapsibleModule,
     MzMediaModule,
-    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

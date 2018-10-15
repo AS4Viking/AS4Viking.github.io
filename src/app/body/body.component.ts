@@ -1,6 +1,5 @@
 import { Component, OnInit, NgModule } from '@angular/core';
 import { MzCollapsibleModule } from 'ngx-materialize';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-body',
@@ -15,7 +14,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 
 export class BodyComponent implements OnInit {
-  faCoffee = faCoffee;
   public isCollapsed = true;
   constructor() { }
 
