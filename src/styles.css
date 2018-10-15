@@ -134,3 +134,14 @@ body {
     display: inline-block;
     margin-left: 10px;
 }
+
+
+.logo2 {
+    height: 100%;
+    width: 40px;
+    /* margin-top: 20px; */
+    display: inline-block; /*Possible removal in the future*/
+}
+
+/* padding-left: 12px;
+padding-top: 4px; */
