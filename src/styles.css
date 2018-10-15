@@ -27,7 +27,7 @@ body {
 /** Header component **/
 .portfolio-name {
     font-size: 60px;
-    /* font-family: 'Charmonman', cursive; */
+    font-family: 'Charmonman', cursive;
 }
 
 .ttl-portfolio {
@@ -149,3 +149,8 @@ body {
 .margin-right {
     margin-right: 10px;
 }
+.collapsible li.active i.expand {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+  }
