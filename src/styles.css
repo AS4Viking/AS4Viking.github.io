@@ -28,6 +28,7 @@ body {
 .portfolio-name {
     font-size: 60px;
     font-family: 'Charmonman', cursive;
+    /* font-family: 'Parisienne', cursive; */
 }
 
 .ttl-portfolio {
@@ -155,4 +156,13 @@ body {
 
   .container {
     max-width: 70% !important;
+  }
+  i {
+    vertical-align: middle !important;
+  }
+  .material-icons {
+    line-height: 1.5 !important;
+  }
+  .expand {
+      float: right;
   }
