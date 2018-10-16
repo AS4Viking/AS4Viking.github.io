@@ -9,6 +9,8 @@ import { MzMediaModule } from 'ngx-materialize';
 import { AccomplishmentsComponent } from './accomplishments/accomplishments.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { MzButtonModule } from 'ngx-materialize';
+import { MzInputModule } from 'ngx-materialize';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { BodyComponent } from './body/body.component';
     NgbModule,
     MzCollapsibleModule,
     MzMediaModule,
+    MzButtonModule,
+    MzInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

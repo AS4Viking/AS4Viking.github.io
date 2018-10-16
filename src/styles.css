@@ -1,10 +1,12 @@
 body {
-    /* background-image: url("/assets/img/technology2.jpeg/"); */
+    /* background-image: url("/assets/img/technology2.jpg/");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  */
     font-family: 'Signika Negative', sans-serif;
+    /* width: 100%;
+    height: 100%; */
 }
-
 /** Collapse **/
 
 .collapsible-header {
@@ -223,7 +225,60 @@ i {
 }
 
 .education {
-    background-color: #ffffff
+    background-color: #ffffff;
+}
+button {
+    font-family: 'Signika Negative', sans-serif !important;
+}
+.footer {
+    
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.bottom {
+    padding-bottom: 0;
+}
+.footer-button {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.text-center-footer {
+    text-align: center;
+}
+.g-recaptcha {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: darkcyan;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -279,3 +334,4 @@ i {
         padding-bottom: 20px;
     }
 }
+
