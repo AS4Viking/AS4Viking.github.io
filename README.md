@@ -1,3 +1,7 @@
+#Installing frameworks
+
+Install NGX Materialize and MaterializeCSS by running `npm install --save ngx-materialize` and `npm install materialize-css@next` for everything to work as it's supposed to.
+
 # AppNew
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
