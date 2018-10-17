@@ -19,7 +19,7 @@ import { MzInputModule } from 'ngx-materialize';
     HeaderComponent,
     AccomplishmentsComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
