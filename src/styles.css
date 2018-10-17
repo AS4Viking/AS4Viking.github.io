@@ -194,7 +194,7 @@ ul:not(.browser-default) {
 
 .link {
     /* height: 100%; */
-    width: 15px;
+    width: 12px;
     display: inline-block;
     margin-left: 10px;
 }
