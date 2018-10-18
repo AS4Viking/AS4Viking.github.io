@@ -81,6 +81,10 @@ nav,
     letter-spacing: 2px;
 }
 
+.cert-name {
+    font-weight: 600;
+}
+
 .sub-title {
     padding-bottom: 10px;
     font-size: 20px;
@@ -186,6 +190,19 @@ ul:not(.browser-default) {
     width: 74px;
     margin-top: 16px;
     margin-left: 26px;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.full-body {
+    margin-bottom: 60px;
+}
+
+.button-cv {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .logo {
