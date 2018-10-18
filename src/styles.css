@@ -198,7 +198,16 @@ ul:not(.browser-default) {
     display: inline-block;
     margin-left: 10px;
 }
-
+.flags {
+    height: 100%;
+    width: 35px;
+    display: inline-block;
+}
+.languages {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 600;
+}
 .logo2 {
     height: 100%;
     width: 40px;
@@ -273,7 +282,10 @@ button {
     display: inline-block;
     margin-top: 20px;
 }
-
+.progress {
+    height: 6px !important;
+    width: 45% !important;
+}
 /* Style inputs with type="text", select elements and textareas */
 
 input[type=text],
