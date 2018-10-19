@@ -1,5 +1,6 @@
 import { Component, OnInit, NgModule } from '@angular/core';
 import { MzCollapsibleModule } from 'ngx-materialize';
+import { MzModalModule } from 'ngx-materialize';
 
 @Component({
   selector: 'app-body',
@@ -10,6 +11,7 @@ import { MzCollapsibleModule } from 'ngx-materialize';
 @NgModule({
   imports: [
     MzCollapsibleModule,
+    MzModalModule,
   ],
 })
 

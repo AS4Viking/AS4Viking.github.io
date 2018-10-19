@@ -367,6 +367,15 @@ input[type=submit]:hover {
     font-weight: 600;
 }
 
+.header-modal {
+    min-width: 100%;
+    background-color: darkcyan !important;
+    font-weight: 600;
+    /* padding-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 2px; */
+}
+
 @media only screen and (max-width: 1024px) {
     .container {
         max-width: 100% !important;

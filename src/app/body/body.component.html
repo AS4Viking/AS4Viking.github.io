@@ -197,11 +197,11 @@
 
       </mz-collapsible-item-body>
     </mz-collapsible-item>
-    <mz-collapsible-item [active]="true">
+    <!-- <mz-collapsible-item [active]="true">
       <mz-collapsible-item-header class="title">
         <i class="material-icons">local_library</i>PERSONAL INFORMATION<i class="material-icons expand">expand_less</i>
       </mz-collapsible-item-header>
-      <mz-collapsible-item-body id="accomp">
+      <mz-collapsible-item-body>
         <ul class="image-side education">
           <li class="display-flex">
             <a href="https://www.facebook.com/tuzlasaltminers/" target="_blank">
@@ -216,15 +216,46 @@
               <h5>Story</h5>
               <video width="320" height="240" controls>
                 <source src="../assets/vid/tackle.mp4/" type="video/mp4">
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
                 Your browser does not support the video tag.
               </video>
             </div>
           </li>
         </ul>
       </mz-collapsible-item-body>
-    </mz-collapsible-item>
+    </mz-collapsible-item> -->
   </mz-collapsible>
 
+  <button class="header-modal" mz-button (click)="SheetModal.openModal()"><i class="material-icons">local_library</i>PERSONAL INFORMATION</button>
+
+<mz-modal #SheetModal [fixedFooter]="true" [options]="modalOptions">
+  <mz-modal-header class="">
+    <h4>Personal information</h4>
+  </mz-modal-header>
+  <mz-modal-content>
+    <ul class="image-side education">
+      <li class="display-flex">
+        <a href="https://www.facebook.com/tuzlasaltminers/" target="_blank">
+          <div><img class="logo" src="../assets/img/company/saltminers-logo.png"></div>
+        </a>
+        <div class="container-div">
+          <div>
+            <h5 class="">Defensive tackle | Offensive guard</h5>
+          </div>
+          <p class="company">Tuzla Saltminers Football</p>
+          <p class="date">2017 - Present</p>
+          <h5>Story</h5>
+          <video width="320" height="240" controls>
+            <source src="../assets/vid/tackle.mp4/" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </li>
+    </ul>
+  </mz-modal-content>
+  <!-- <mz-modal-footer>
+    <button mz-button [flat]="true" mz-modal-close>Disagree</button>
+    <button mz-button [flat]="true" mz-modal-close>Agree</button>
+  </mz-modal-footer> -->
+</mz-modal>
 
 </div>

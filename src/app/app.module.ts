@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { MzButtonModule } from 'ngx-materialize';
 import { MzInputModule } from 'ngx-materialize';
+import { MzModalModule } from 'ngx-materialize';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MzInputModule } from 'ngx-materialize';
     MzCollapsibleModule,
     MzMediaModule,
     MzButtonModule,
-    MzInputModule
+    MzInputModule,
+    MzModalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
