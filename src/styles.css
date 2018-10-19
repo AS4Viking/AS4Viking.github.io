@@ -372,13 +372,24 @@ input[type=submit]:hover {
     min-height: 68.88px;
     background-color: darkcyan !important;
     font-weight: 600;
-    /* padding-bottom: 10px; */
     font-size: 25px !important;
-    /* letter-spacing: 2px; */
+    letter-spacing: 2px !important;
 }
 
 .btn i {
     margin-right: 10px;
+}
+.modal.modal-fixed-footer {
+    height: 80% !important;
+}
+
+.modal {
+    max-height: 80% !important;
+    width: 80% !important;
+}
+
+.modal.modal-fixed-footer .modal-footer {
+    border-top: none !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -398,6 +409,7 @@ input[type=submit]:hover {
     }
     .header-modal {
         min-height: 61px;
+        font-size: 20px !important;
     }
 }
 
@@ -412,6 +424,9 @@ input[type=submit]:hover {
     }
     .title {
         font-size: 17px;
+    }
+    .header-modal {
+        font-size: 17px !important;
     }
     .ttl-portfolio {
         font-size: 22px;
@@ -446,6 +461,9 @@ input[type=submit]:hover {
     .title {
         font-size: 15px;
     }
+    .header-modal {
+        font-size: 15px !important;
+    }
     .social-media {
         padding-bottom: 20px;
     }
@@ -459,6 +477,9 @@ input[type=submit]:hover {
     }
     .title {
         font-size: 13px;
+    }
+    .header-modal {
+        font-size: 13px !important;
     }
     .ttl-portfolio {
         font-size: 18px;
