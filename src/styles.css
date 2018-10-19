@@ -90,6 +90,7 @@ nav,
     font-size: 20px;
     font-weight: 600;
     margin-left: 10px;
+    letter-spacing: 2px;
 }
 
 .personal-quote {
@@ -407,6 +408,9 @@ input[type=submit]:hover {
     .title {
         font-size: 20px;
     }
+    .sub-title {
+        font-size: 20px;
+    }
     .header-modal {
         min-height: 61px;
         font-size: 20px !important;
@@ -423,6 +427,9 @@ input[type=submit]:hover {
         /* font-family: 'Parisienne', cursive; */
     }
     .title {
+        font-size: 17px;
+    }
+    .sub-title {
         font-size: 17px;
     }
     .header-modal {
@@ -442,7 +449,9 @@ input[type=submit]:hover {
     }
     .credential {
         font-size: 17px;
-        font-weight: bold;
+    }
+    .cert-name {
+        font-size: 17px;
     }
     .company {
         font-size: 12px;
@@ -461,6 +470,9 @@ input[type=submit]:hover {
     .title {
         font-size: 15px;
     }
+    .sub-title {
+        font-size: 15px;
+    }
     .header-modal {
         font-size: 15px !important;
     }
@@ -476,6 +488,9 @@ input[type=submit]:hover {
         /* font-family: 'Parisienne', cursive; */
     }
     .title {
+        font-size: 13px;
+    }
+    .sub-title {
         font-size: 13px;
     }
     .header-modal {
