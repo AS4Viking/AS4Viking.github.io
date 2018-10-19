@@ -459,6 +459,19 @@ input[type=submit]:hover {
     .date {
         font-size: 12px;
     }
+    .container-div {
+        padding-left: 15px;
+    }
+    .logo {
+        width: 50px;
+        margin-left: 25px;
+    }
+    .logo2 {
+        width: 35px;
+    }
+    .title2 {
+        padding-left: 15px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
