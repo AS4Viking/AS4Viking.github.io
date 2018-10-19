@@ -394,6 +394,9 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 414px) {
+    #accomp ul:not(.browser-default) {
+        padding-left: 0;
+    }
     .portfolio-name {
         font-size: 45px;
         font-family: 'Charmonman', cursive;
