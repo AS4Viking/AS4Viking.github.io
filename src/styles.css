@@ -369,11 +369,16 @@ input[type=submit]:hover {
 
 .header-modal {
     min-width: 100%;
+    min-height: 68.88px;
     background-color: darkcyan !important;
     font-weight: 600;
-    /* padding-bottom: 10px;
-    font-size: 25px;
-    letter-spacing: 2px; */
+    /* padding-bottom: 10px; */
+    font-size: 25px !important;
+    /* letter-spacing: 2px; */
+}
+
+.btn i {
+    margin-right: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -390,6 +395,9 @@ input[type=submit]:hover {
     }
     .title {
         font-size: 20px;
+    }
+    .header-modal {
+        min-height: 61px;
     }
 }
 
