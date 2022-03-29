@@ -12,6 +12,9 @@ import { BodyComponent } from './body/body.component';
 import { MzButtonModule } from 'ngx-materialize';
 import { MzInputModule } from 'ngx-materialize';
 import { MzModalModule } from 'ngx-materialize';
+import { VolunteerExperienceComponent } from './volunteer-experience/volunteer-experience.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { EducationComponent } from './education/education.component';
 
 
 @NgModule({
@@ -21,6 +24,9 @@ import { MzModalModule } from 'ngx-materialize';
     AccomplishmentsComponent,
     FooterComponent,
     BodyComponent,
+    VolunteerExperienceComponent,
+    WorkExperienceComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
