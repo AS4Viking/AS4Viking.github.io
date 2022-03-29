@@ -15,6 +15,7 @@ import { MzModalModule } from 'ngx-materialize';
 import { VolunteerExperienceComponent } from './volunteer-experience/volunteer-experience.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationComponent } from './education/education.component';
+import { PersonalInformationComponent } from './personal-information/personal-information.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { EducationComponent } from './education/education.component';
     VolunteerExperienceComponent,
     WorkExperienceComponent,
     EducationComponent,
+    PersonalInformationComponent,
   ],
   imports: [
     BrowserModule,
