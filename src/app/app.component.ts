@@ -12,7 +12,7 @@ constructor() { }
 
   ngOnInit() {
   // https://vincentgarreau.com/particles.js/
-  particlesJS.load('particles-js', 'src/assets/data/particles/particles.json', function() {
+  particlesJS.load('particles-js', '../assets/data/particles/particles.json', function() {
   console.log('callback - particles.js config loaded');
   });
   }
