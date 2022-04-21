@@ -60,6 +60,7 @@ nav,
     font-size: 95px;
     font-family: 'Charmonman', cursive;
     /* font-family: 'Parisienne', cursive; */
+    font-weight: bold;
 }
 
 .ttl-portfolio {
@@ -93,12 +94,17 @@ nav,
     font-style: italic;
 }
 
-.company {
-    margin-top: 5px;
-    margin-bottom: -10px;
+#personal_quote {
+  font-weight: bold;
 }
 
 .organization {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+
+.organization_ngo {
     margin-bottom: 5px;
 }
 
@@ -238,6 +244,10 @@ ul:not(.browser-default) {
     font-weight: 600;
 }
 
+.languages-skill {
+  font-weight: 100;
+}
+
 .logo2 {
     height: 100%;
     width: 40px;
@@ -313,11 +323,12 @@ button {
     margin-top: 20px;
 }
 
+/*
 .progress {
     height: 6px !important;
     width: 45% !important;
 }
-
+*/
 /* Style inputs with type="text", select elements and textareas */
 
 input[type=text],
@@ -454,7 +465,7 @@ input[type=submit]:hover {
     .cert-name {
         font-size: 17px;
     }
-    .company {
+    .organization {
         font-size: 12px;
     }
     .date {
