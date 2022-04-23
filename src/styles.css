@@ -576,3 +576,9 @@ canvas {
   top: 0;
   visibility: visible;
 }
+
+.feelanceWork {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
