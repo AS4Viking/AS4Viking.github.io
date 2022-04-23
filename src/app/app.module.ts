@@ -16,6 +16,7 @@ import { VolunteerExperienceComponent } from './volunteer-experience/volunteer-e
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationComponent } from './education/education.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
+import { FreelanceComponent } from './freelance/freelance.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { PersonalInformationComponent } from './personal-information/personal-in
     WorkExperienceComponent,
     EducationComponent,
     PersonalInformationComponent,
+    FreelanceComponent,
   ],
   imports: [
     BrowserModule,

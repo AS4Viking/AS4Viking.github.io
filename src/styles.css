@@ -168,14 +168,14 @@ nav,
 }
 
 ul {
-background-color: white;
+background-color: #ffffff;
 }
 
 /* ul:not(.browser-default) {
     padding-left: 0;
 } */
 
-#accomp ul:not(.browser-default) {
+.accomp ul:not(.browser-default) {
     padding-left: 30px;
 }
 
@@ -355,7 +355,7 @@ textarea {
 
 input[type=submit] {
     background-color: darkcyan;
-    color: white;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -404,6 +404,32 @@ input[type=submit]:hover {
     border-top: none !important;
 }
 
+.logoDesign {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.coverDesign {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.posterDesign {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 @media only screen and (max-width: 1024px) {
     .container {
         max-width: 100% !important;
@@ -429,7 +455,7 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 414px) {
-    #accomp ul:not(.browser-default) {
+    .accomp ul:not(.browser-default) {
         padding-left: 0;
     }
     .portfolio-name {
@@ -483,6 +509,12 @@ input[type=submit]:hover {
     }
     .title2 {
         padding-left: 15px;
+    }
+    .logoDesign {
+      width:50%;
+    }
+    .coverDesign {
+      width: 100%;
     }
 }
 
@@ -544,5 +576,3 @@ canvas {
   top: 0;
   visibility: visible;
 }
-
-

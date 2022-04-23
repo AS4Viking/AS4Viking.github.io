@@ -30,7 +30,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/materialize-css/dist/js/materialize.min.js",
-              "node_modules/particles.js/particles.js"
+              "node_modules/particles.js/particles.js",
+              "src/assets/app.js"
             ]
           },
           "configurations": {
@@ -83,7 +84,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/materialize-css/dist/js/materialize.min.js",
-              "node_modules/particles.js/particles.js"
+              "node_modules/particles.js/particles.js",
+              "src/assets/app.js"
             ],
             "assets": [
               "src/favicon.ico",
