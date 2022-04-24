@@ -54,40 +54,41 @@
     </mz-collapsible-item>
     <!-- Accomplishments  end -->
 
+    <!-- Freelance work start -->
+    <mz-collapsible-item [active]="true">
+      <mz-collapsible-item-header class="title">
+        <i class="material-icons">next_week</i>FREELANCE WORK<i class="material-icons expand">expand_more</i>
+      </mz-collapsible-item-header>
+      <mz-collapsible-item-body class="accomp">
+
+        <app-freelance></app-freelance>
+
+      </mz-collapsible-item-body>
+    </mz-collapsible-item>
+   <!-- Freelance work end -->
+
+
+  </mz-collapsible>
 
   <!--
-   <button class="header-modal" mz-button (click)="SheetModal.openModal()"><i class="material-icons">mode_comment</i>PERSONAL
-     INFORMATION
-   </button>
+  <button class="header-modal" mz-button (click)="SheetModal.openModal()"><i class="material-icons">mode_comment</i>PERSONAL
+    INFORMATION
+  </button>
 
-   <mz-modal #SheetModal [fixedFooter]="true">
-     <mz-modal-header class="">
-       <h4>Personal information</h4>
-     </mz-modal-header>
-     <mz-modal-content>
+  <mz-modal #SheetModal [fixedFooter]="true">
+    <mz-modal-header class="">
+      <h4>Personal information</h4>
+    </mz-modal-header>
+    <mz-modal-content>
 
-       <app-personal-information></app-personal-information>
+      <app-personal-information></app-personal-information>
 
-     </mz-modal-content>-->
+    </mz-modal-content>-->
 
   <!-- <mz-modal-footer>
     <button mz-button [flat]="true" mz-modal-close>Disagree</button>
     <button mz-button [flat]="true" mz-modal-close>Agree</button>
   </mz-modal-footer> -->
   <!-- </mz-modal>-->
-
-
-   <mz-collapsible-item [active]="true">
-     <mz-collapsible-item-header class="title">
-       <i class="material-icons">next_week</i>FREELANCE WORK
-     </mz-collapsible-item-header>
-     <mz-collapsible-item-body class="accomp">
-       <app-freelance></app-freelance>
-     </mz-collapsible-item-body>
-   </mz-collapsible-item>
-   <!-- Accomplishments  end -->
-
-
-  </mz-collapsible>
 
 </div>

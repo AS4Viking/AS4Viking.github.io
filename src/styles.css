@@ -429,7 +429,26 @@ input[type=submit]:hover {
   display: table;
 }
 
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
 
+#particles-js {
+  position: fixed!important;
+  left: 0;
+  right: 0;
+  top: 0;
+  visibility: visible;
+}
+
+.freelanceWork {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Media for different resolutions */
 @media only screen and (max-width: 1024px) {
     .container {
         max-width: 100% !important;
@@ -563,22 +582,4 @@ input[type=submit]:hover {
         padding-bottom: 20px;
     }
 }
-
-canvas {
-	display: block;
-	vertical-align: bottom;
-}
-
-#particles-js {
-  position: fixed!important;
-  left: 0;
-  right: 0;
-  top: 0;
-  visibility: visible;
-}
-
-.feelanceWork {
-  text-align: center;
-  font-size: 26px;
-  font-weight: 600;
-}
+/* End for media for different resolutions */
