@@ -604,5 +604,14 @@ canvas {
     .email {
         font-size: 15px;
     }
+    .credential {
+        font-size: 12px;
+    }
+    .cert-name {
+        font-size: 12px;
+    }
+    .organization {
+        font-size: 11px;
+    }
 }
 /* End for media for different resolutions */
