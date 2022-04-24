@@ -263,7 +263,7 @@ ul:not(.browser-default) {
     margin-right: 10px;
 }
 
-.collapsible li.active i.expand {
+.full-body .collapsible li.active i.expand {
     -ms-transform: rotate(180deg);
     /* IE 9 */
     -webkit-transform: rotate(180deg);
@@ -520,10 +520,10 @@ canvas {
         font-size: 17px;
     }
     .organization {
-        font-size: 12px;
+        font-size: 14px;
     }
     .date {
-        font-size: 12px;
+        font-size: 14px;
     }
     .container-div {
         padding-left: 15px;
@@ -546,6 +546,24 @@ canvas {
     }
     .certificateDesign {
       width: 100%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .organization {
+        font-size: 12px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .credential {
+       font-size: 16px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .description_long {
+        font-size: 12px;
     }
 }
 
@@ -613,5 +631,47 @@ canvas {
     .organization {
         font-size: 11px;
     }
+    .date {
+        font-size: 11px;
+    }
+    .description {
+        font-size: 11px;
+    }
+    .description_long {
+        font-size: 11px;
+    }
 }
 /* End for media for different resolutions */
+
+
+/* Description expand*/
+.collapsible-header .description {
+  color: black;
+  font-weight: 600;
+}
+
+.image-side .collapsible-header {
+  background-color: transparent !important;
+  padding: 0px !important;
+}
+
+.image-side ul:not(.browser-default) {
+    padding-left: 0px;
+}
+
+.work_experience .date {
+    margin-bottom: 0px;
+}
+
+.description .expand {
+    float: none !important;
+}
+
+.image-side .collapsible li.active i.expand_description {
+    -ms-transform: rotate(180deg) !important;
+    /* IE 9 */
+    -webkit-transform: rotate(180deg) !important;
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg) !important;
+}
+/* Description expand end */
