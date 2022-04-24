@@ -3,8 +3,6 @@ html {
     box-sizing: border-box;
 }
 
-
-
 body {
     /* background-image: url("/assets/img/technology2.jpg/");
     background-repeat: no-repeat;
@@ -464,8 +462,6 @@ canvas {
 @media only screen and (max-width: 768px) {
     .portfolio-name {
         font-size: 60px;
-        font-family: 'Charmonman', cursive;
-        /* font-family: 'Parisienne', cursive; */
     }
     .title {
         font-size: 20px;
@@ -479,14 +475,21 @@ canvas {
     }
 }
 
+@media only screen and (max-width: 540px) {
+   .accomp ul:not(.browser-default) {
+        padding-left: 0;
+   }
+   .ttl-portfolio {
+   font-size: 32px;
+   }
+}
+
 @media only screen and (max-width: 414px) {
     .accomp ul:not(.browser-default) {
         padding-left: 0;
     }
     .portfolio-name {
         font-size: 45px;
-        font-family: 'Charmonman', cursive;
-        /* font-family: 'Parisienne', cursive; */
     }
     .title {
         font-size: 17px;
@@ -549,8 +552,6 @@ canvas {
 @media only screen and (max-width: 360px) {
     .portfolio-name {
         font-size: 50px;
-        font-family: 'Charmonman', cursive;
-        /* font-family: 'Parisienne', cursive; */
     }
     .title {
         font-size: 15px;
@@ -569,8 +570,6 @@ canvas {
 @media only screen and (max-width: 320px) {
     .portfolio-name {
         font-size: 40px;
-        font-family: 'Charmonman', cursive;
-        /* font-family: 'Parisienne', cursive; */
     }
     .title {
         font-size: 13px;
@@ -589,6 +588,21 @@ canvas {
     }
     .social-media {
         padding-bottom: 20px;
+    }
+}
+
+ @media only screen and (max-width: 280px) {
+    .portfolio-name {
+        font-size: 35px;
+    }
+    .personal-quote {
+        font-size: 13px;
+    }
+    .title {
+        font-size: 11px;
+    }
+    .email {
+        font-size: 15px;
     }
 }
 /* End for media for different resolutions */
